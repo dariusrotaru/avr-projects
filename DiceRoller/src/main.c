@@ -103,7 +103,7 @@ int main(void) {
             case STATE_CRIT_SUCCESS:
                 if (gMilis - gLastActionTime >= 2000) {
                     gCurrentState = STATE_IDLE;
-                    MatrixLoadPattern(0);
+                    MatrixLoadPattern(27);
                 }
                 break;
         }
